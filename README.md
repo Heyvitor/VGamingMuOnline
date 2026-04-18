@@ -5,8 +5,9 @@ A proposta e manter aqui os arquivos que serao compartilhados com a comunidade d
 
 ## Discords
 
-- Comunidade VGaming MuOnline: https://discord.gg/maGp7u7a
+- Comunidade Nova VGaming MuOnline: https://discord.gg/maGp7u7a
 - Mu Online CrossPlataform Open Source em construcao: https://discord.gg/HevQ5dK5
+- Comunidade ZoneDev - https://zonedev.com.br/
 
 ## Objetivo
 
