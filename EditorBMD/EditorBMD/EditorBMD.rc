@@ -1,0 +1,156 @@
+//Script de recursos gerados pelo Microsoft Visual C++.
+//
+#include "Interface\resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Gerado com base no recurso TEXTINCLUDE.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+LANGUAGE 22, 1
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Ícone
+//
+
+// Ícone com o menor valor de ID colocado primeiro para assegurar que o ícone do aplicativo
+// mantenha-se consistente em todos os sistemas.
+
+IDI_EDITORBMD       ICON         "icone.ico"
+IDI_SMALL               ICON         "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_EDITORBMD MENU
+BEGIN
+    POPUP "&Arquivo"
+    BEGIN
+        MENUITEM "&Abrir...",            IDM_OPEN
+        MENUITEM "&Salvar",              IDM_SAVE
+        MENUITEM "Salvar &Como...",      IDM_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "Sai&r",                IDM_EXIT
+    END
+    POPUP "&Ajuda"
+    BEGIN
+        MENUITEM "&Sobre...",           IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Acelerador
+//
+
+IDC_EDITORBMD ACCELERATORS
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Caixa de Diálogo
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 92
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sobre o EditorBMD"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    ICON            IDI_EDITORBMD,IDC_STATIC,12,14,21,20
+    LTEXT           "EditorBMD - Versao 1.0",IDC_STATIC,42,14,168,8,SS_NOPREFIX
+    LTEXT           "Creditos: Vitor Araujo - VGaming",IDC_ABOUT_CREDITS,42,28,168,8,SS_NOPREFIX
+    LTEXT           "Links oficiais da comunidade e do projeto:",IDC_STATIC,42,42,180,8
+    PUSHBUTTON      "Abrir Discord",IDC_ABOUT_DISCORD,42,55,80,14
+    PUSHBUTTON      "Abrir Repositorio",IDC_ABOUT_REPOSITORY,128,55,95,14
+    DEFPUSHBUTTON   "OK",IDOK,173,72,50,14,WS_GROUP
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+1 TEXTINCLUDE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Tabela de Cadeias de Caracteres
+//
+
+STRINGTABLE
+BEGIN
+   IDC_EDITORBMD   "EDITORBMD"
+   IDS_APP_TITLE       "EditorBMD"
+END
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Gerado com base no recurso TEXTINCLUDE.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
