@@ -1,0 +1,25 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sql2022_dev
+    restart: always
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=SuaSenhaForte123!
+      - MSSQL_PID=Developer
+    volumes:
+      - mssql_data:/var/opt/mssql
+
+  adminer:
+    image: adminer
+    container_name: sql_panel
+    restart: always
+    ports:
+      - "8596:8080"
+    depends_on:
+      - sqlserver
+
+volumes:
+  mssql_data:

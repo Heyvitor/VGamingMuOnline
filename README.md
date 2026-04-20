@@ -15,3 +15,4 @@ Este repositorio sera usado para armazenar codigos que serao liberados no Discor
 ## Estrutura Atual
 
 - `EditorBMD/`: arquivos do editor de BMD do 5.2 Takumi.
+- `Docker/`: Imagens Docker.
